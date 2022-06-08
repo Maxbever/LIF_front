@@ -1,0 +1,48 @@
+@import 'scss/reset';
+@import 'scss/base';
+
+body {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  padding: 6px;
+}
+.floor2{
+  background-image: url("./assets/Etage2.png");
+}
+
+.floor2Eco{
+  background-image: url("./assets/Etage2_Eco.png");
+}
+
+.floor3{
+  background-image: url("./assets/Etage3.png");
+}
+
+.floor4{
+  background-image: url("./assets/Etage4.png");
+}
+
+.floor0{
+  background-image: url("./assets/Etage0.png");
+}
+
+.config{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: .25rem;
+  padding: 10px;
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 4px 0 rgb(0 0 0 / 12%);
+}
+
+.button_floor{
+  width: 100%;
+  margin: 2px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: .25rem;
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 4px 0 rgb(0 0 0 / 12%);
+}
