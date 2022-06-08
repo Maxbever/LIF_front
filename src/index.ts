@@ -1,3 +1,5 @@
+import Data from "./ts/data";
+
 const button_floor0 = document.getElementById('floor0') as HTMLButtonElement;
 const button_floor2 = document.getElementById('floor2') as HTMLButtonElement;
 const button_floor2Eco = document.getElementById('floor2Eco') as HTMLButtonElement;
@@ -33,3 +35,5 @@ button_floor4.addEventListener("click",function (){
 function removeClass(){
     body.classList.remove("floor2","floor2Eco","floor3","floor4","floor0");
 }
+
+Data.getData()
