@@ -3,3 +3,7 @@
 /.idea/
 /.cache
 .DS_Store
+src/rust_websocket/target
+/target
+
+src/rust_websocket/.idea

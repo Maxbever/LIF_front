@@ -36,15 +36,4 @@ function removeClass(){
     div_back_ground.classList.remove("floor2","floor2Eco","floor3","floor4","floor0");
 }
 
-function update(e){
-    var x = e.clientX
-    var y = e.clientY
-
-    div_back_ground.style.setProperty('--cursorX', x + 'px')
-    div_back_ground.style.setProperty('--cursorY', y + 'px')
-}
-
-document.addEventListener('mousemove',update)
-document.addEventListener('touchmove',update)
-
 Data.getData()
